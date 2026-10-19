@@ -1,0 +1,52 @@
+[
+  {
+    "seed": 0,
+    "train_test_shared_raw_SMILES": 0,
+    "train_test_shared_full_InChIKey": 1,
+    "train_U_shared_full_InChIKey": 0,
+    "test_U_shared_full_InChIKey": 0,
+    "train_test_shared_connectivity_block": 129,
+    "train_U_shared_connectivity_block": 0,
+    "test_U_shared_connectivity_block": 0
+  },
+  {
+    "seed": 1,
+    "train_test_shared_raw_SMILES": 0,
+    "train_test_shared_full_InChIKey": 2,
+    "train_U_shared_full_InChIKey": 0,
+    "test_U_shared_full_InChIKey": 0,
+    "train_test_shared_connectivity_block": 139,
+    "train_U_shared_connectivity_block": 0,
+    "test_U_shared_connectivity_block": 0
+  },
+  {
+    "seed": 2,
+    "train_test_shared_raw_SMILES": 0,
+    "train_test_shared_full_InChIKey": 3,
+    "train_U_shared_full_InChIKey": 0,
+    "test_U_shared_full_InChIKey": 0,
+    "train_test_shared_connectivity_block": 132,
+    "train_U_shared_connectivity_block": 0,
+    "test_U_shared_connectivity_block": 0
+  },
+  {
+    "seed": 3,
+    "train_test_shared_raw_SMILES": 0,
+    "train_test_shared_full_InChIKey": 1,
+    "train_U_shared_full_InChIKey": 0,
+    "test_U_shared_full_InChIKey": 0,
+    "train_test_shared_connectivity_block": 134,
+    "train_U_shared_connectivity_block": 0,
+    "test_U_shared_connectivity_block": 0
+  },
+  {
+    "seed": 4,
+    "train_test_shared_raw_SMILES": 0,
+    "train_test_shared_full_InChIKey": 1,
+    "train_U_shared_full_InChIKey": 0,
+    "test_U_shared_full_InChIKey": 0,
+    "train_test_shared_connectivity_block": 124,
+    "train_U_shared_connectivity_block": 0,
+    "test_U_shared_connectivity_block": 0
+  }
+]

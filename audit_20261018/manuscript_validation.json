@@ -1,0 +1,422 @@
+{
+  "record_count": 2392,
+  "prediction_checks": [
+    {
+      "design": "E2",
+      "seed": 0,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E2",
+      "seed": 1,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E2",
+      "seed": 2,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E2",
+      "seed": 3,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E2",
+      "seed": 4,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_random",
+      "seed": 0,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly",
+        "biot5",
+        "biot5sm"
+      ]
+    },
+    {
+      "design": "E1_random",
+      "seed": 1,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_random",
+      "seed": 2,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_random",
+      "seed": 3,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_random",
+      "seed": 4,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_disjoint",
+      "seed": 0,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_disjoint",
+      "seed": 1,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_disjoint",
+      "seed": 2,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_disjoint",
+      "seed": 3,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    },
+    {
+      "design": "E1_disjoint",
+      "seed": 4,
+      "aligned_models": [
+        "drugban",
+        "moltrans",
+        "drugonly"
+      ]
+    }
+  ],
+  "E1_split_reconstruction": [
+    {
+      "seed": 0,
+      "matches_released_SMILES_split": true
+    },
+    {
+      "seed": 1,
+      "matches_released_SMILES_split": true
+    },
+    {
+      "seed": 2,
+      "matches_released_SMILES_split": true
+    },
+    {
+      "seed": 3,
+      "matches_released_SMILES_split": true
+    },
+    {
+      "seed": 4,
+      "matches_released_SMILES_split": true
+    }
+  ],
+  "drops": {
+    "pooled": {
+      "n": 32,
+      "min": -0.136013,
+      "max": -0.072132,
+      "above_zero": 0,
+      "below_zero": 32,
+      "includes_zero": 0
+    },
+    "pooled_subset": {
+      "n": 32,
+      "min": -0.150919,
+      "max": -0.077111,
+      "above_zero": 0,
+      "below_zero": 32,
+      "includes_zero": 0
+    },
+    "within_pairweighted": {
+      "n": 32,
+      "min": -0.118972,
+      "max": -0.044689,
+      "above_zero": 0,
+      "below_zero": 32,
+      "includes_zero": 0
+    },
+    "within_protein": {
+      "n": 32,
+      "min": -0.152457,
+      "max": -0.061848,
+      "above_zero": 0,
+      "below_zero": 32,
+      "includes_zero": 0
+    }
+  },
+  "DrugBAN_MolTrans_ordering": {
+    "n": 120,
+    "min": 0.023614,
+    "max": 0.175981,
+    "above_zero": 120,
+    "below_zero": 0,
+    "includes_zero": 0
+  },
+  "G": {
+    "E2": {
+      "pooled": {
+        "n": 5,
+        "min": 0.015332,
+        "max": 0.02821,
+        "above_zero": 5,
+        "below_zero": 0,
+        "includes_zero": 0
+      },
+      "pooled_subset": {
+        "n": 5,
+        "min": 0.018223,
+        "max": 0.028385,
+        "above_zero": 5,
+        "below_zero": 0,
+        "includes_zero": 0
+      },
+      "within_pairweighted": {
+        "n": 5,
+        "min": 0.006618,
+        "max": 0.021248,
+        "above_zero": 1,
+        "below_zero": 0,
+        "includes_zero": 4
+      },
+      "within_protein": {
+        "n": 5,
+        "min": -0.021745,
+        "max": -0.004607,
+        "above_zero": 0,
+        "below_zero": 1,
+        "includes_zero": 4
+      }
+    },
+    "E1_random": {
+      "pooled": {
+        "n": 5,
+        "min": 0.025123,
+        "max": 0.035036,
+        "above_zero": 5,
+        "below_zero": 0,
+        "includes_zero": 0
+      },
+      "pooled_subset": {
+        "n": 5,
+        "min": 0.032557,
+        "max": 0.044639,
+        "above_zero": 5,
+        "below_zero": 0,
+        "includes_zero": 0
+      },
+      "within_pairweighted": {
+        "n": 5,
+        "min": 0.008767,
+        "max": 0.036983,
+        "above_zero": 1,
+        "below_zero": 0,
+        "includes_zero": 4
+      },
+      "within_protein": {
+        "n": 5,
+        "min": -0.00755,
+        "max": 0.040384,
+        "above_zero": 2,
+        "below_zero": 0,
+        "includes_zero": 3
+      }
+    },
+    "E1_disjoint": {
+      "pooled": {
+        "n": 5,
+        "min": 0.003621,
+        "max": 0.027152,
+        "above_zero": 4,
+        "below_zero": 0,
+        "includes_zero": 1
+      },
+      "pooled_subset": {
+        "n": 5,
+        "min": 0.005686,
+        "max": 0.02876,
+        "above_zero": 4,
+        "below_zero": 0,
+        "includes_zero": 1
+      },
+      "within_pairweighted": {
+        "n": 5,
+        "min": -0.003895,
+        "max": 0.03597,
+        "above_zero": 0,
+        "below_zero": 0,
+        "includes_zero": 5
+      },
+      "within_protein": {
+        "n": 5,
+        "min": -0.032545,
+        "max": -0.005565,
+        "above_zero": 0,
+        "below_zero": 2,
+        "includes_zero": 3
+      }
+    }
+  },
+  "BioT5": {
+    "biot5-drugban": {
+      "pooled": {
+        "Delta_O": {
+          "n": 5,
+          "min": -0.000549,
+          "max": 0.004101,
+          "above_zero": 1,
+          "below_zero": 0,
+          "includes_zero": 4
+        },
+        "Delta_U": {
+          "n": 5,
+          "min": 0.006517,
+          "max": 0.012664,
+          "above_zero": 5,
+          "below_zero": 0,
+          "includes_zero": 0
+        },
+        "G": {
+          "n": 5,
+          "min": 0.003738,
+          "max": 0.013212,
+          "above_zero": 4,
+          "below_zero": 0,
+          "includes_zero": 1
+        }
+      },
+      "within_protein": {
+        "Delta_O": {
+          "n": 5,
+          "min": -0.015882,
+          "max": 0.007983,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        },
+        "Delta_U": {
+          "n": 5,
+          "min": -0.012307,
+          "max": 0.005601,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        },
+        "G": {
+          "n": 5,
+          "min": -0.008394,
+          "max": 0.021483,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        }
+      }
+    },
+    "biot5sm-drugban": {
+      "pooled": {
+        "Delta_O": {
+          "n": 5,
+          "min": -0.000231,
+          "max": 0.004419,
+          "above_zero": 2,
+          "below_zero": 0,
+          "includes_zero": 3
+        },
+        "Delta_U": {
+          "n": 5,
+          "min": 0.003262,
+          "max": 0.009408,
+          "above_zero": 2,
+          "below_zero": 0,
+          "includes_zero": 3
+        },
+        "G": {
+          "n": 5,
+          "min": 0.000165,
+          "max": 0.009639,
+          "above_zero": 2,
+          "below_zero": 0,
+          "includes_zero": 3
+        }
+      },
+      "within_protein": {
+        "Delta_O": {
+          "n": 5,
+          "min": -0.011576,
+          "max": 0.012289,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        },
+        "Delta_U": {
+          "n": 5,
+          "min": -0.017725,
+          "max": 0.000183,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        },
+        "G": {
+          "n": 5,
+          "min": -0.018118,
+          "max": 0.011759,
+          "above_zero": 0,
+          "below_zero": 0,
+          "includes_zero": 5
+        }
+      }
+    }
+  },
+  "scalar_checks": 752,
+  "records_sha256": "188ecb1b80372a9e3ad31229a9acdb48603f04060d306ed32c131c6b011981ae"
+}

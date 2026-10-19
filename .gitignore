@@ -1,0 +1,12 @@
+# release assets and upstream code, unzipped or cloned locally
+results/hrp_*/
+results/target/*.tsv
+!results/target/summary.tsv
+results/bindingdb/*.csv
+external/
+*.zip
+*.pt
+*.pth
+
+__pycache__/
+*.pyc

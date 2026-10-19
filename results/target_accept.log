@@ -1,0 +1,28 @@
+set sizes
+     train   72126 pairs    31047 positive    21839 blocks   2291 proteins
+     val     10618 pairs     4392 positive     3120 blocks   1362 proteins
+     test    20622 pairs     8797 positive     6240 blocks   1593 proteins
+     U       28797 pairs     8797 positive    25219 blocks   1814 proteins
+ok   train/val blocks disjoint  0 shared
+ok   train/test blocks disjoint  0 shared
+ok   val/test blocks disjoint  0 shared
+ok   U blocks never seen in training  0 shared
+ok   U blocks disjoint from the test blocks too  0 shared
+ok   U reuses exactly the test positives  8797 vs 8797
+ok   no pair is both an O and a U negative
+ok   train pair ids unique
+ok   val pair ids unique
+ok   test pair ids unique
+ok   U pair ids unique
+ok   U negatives match the declared sample size  20000
+ok   drug ids resolve to one SMILES each
+ok   U proteins are a subset of the declared protein set
+ok   every SMILES parses
+ok   every molecule within DrugBAN's node limit
+ok   every molecule SELFIES-encodable
+ok   every molecule inside MolTrans's vocabulary  an out-of-vocabulary input is silently blanked for that model only
+ok   every protein inside MolTrans's vocabulary
+ok   SMILES are canonical
+ok   W equals the declared mass split  W = 0.7845
+
+all checks passed; W = 0.7845, O negatives 59130, U negatives 215245

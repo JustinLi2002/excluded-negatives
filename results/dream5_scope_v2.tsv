@@ -1,0 +1,4 @@
+network	organism	input_TFs	input_genes	gs_regulators	gs_genes	positives	negatives_released	rebuilt_equals_released	W_candidates	W_negative_mass	input_TFs_without_targets	input_genes_outside_gs
+1	in silico	195	1643	178	1565	4012	274380	True	0.1305	0.1322	17	78
+3	E. coli	334	4511	141	1081	2066	150214	True	0.8989	0.9001	193	3430
+4	S. cerevisiae	333	5950	114	1994	3940	223262	True	0.8853	0.8871	219	3956

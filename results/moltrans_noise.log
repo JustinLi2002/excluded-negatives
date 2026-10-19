@@ -1,0 +1,12 @@
+checkpoint: seed 0, mode target, best epoch 33, val AUROC 0.9276593338821805
+pass 0: AUROC_O 0.933323  AUROC_U 0.836180  U-O -0.097143
+pass 1: AUROC_O 0.933413  AUROC_U 0.836164  U-O -0.097249
+pass 2: AUROC_O 0.933373  AUROC_U 0.836218  U-O -0.097155
+pass 3: AUROC_O 0.933309  AUROC_U 0.836310  U-O -0.096999
+pass 4: AUROC_O 0.933295  AUROC_U 0.836292  U-O -0.097003
+AUROC_O: mean 0.933342  sd 0.000049  range 0.000118
+AUROC_U: mean 0.836233  sd 0.000066  range 0.000146
+U-O: mean -0.097110  sd 0.000107  range 0.000250
+
+For comparison, the effects this paper reports are of order 0.02-0.10 on the
+O-U difference and 0.003-0.06 on model-pair gaps.
