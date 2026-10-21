@@ -3,7 +3,8 @@
 Code, data and results for:
 
 > Justin Li. *What a low-bias filter leaves out: measured performance on the excluded
-> negatives of a drug–target interaction benchmark.* Manuscript in preparation.
+> negatives of a drug–target interaction benchmark.* ChemRxiv (2026).
+> [doi:10.26434/chemrxiv.15010766/v1](https://doi.org/10.26434/chemrxiv.15010766/v1)
 
 The low-bias BindingDB benchmark (Bai et al., IEEE BIBM 2021; used by DrugBAN) keeps a
 drug only if it has both a positive and a negative label. BindingDB holds measured IC50
